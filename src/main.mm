@@ -1,6 +1,7 @@
 #include "ofMain.h"
 #include "ofApp.h"
 
+// HACK: to get it to compile with Mavericks, from https://github.com/openframeworks/openFrameworks/issues/3178#issuecomment-56519436
 extern "C"{
     size_t fwrite$UNIX2003( const void *a, size_t b, size_t c, FILE *d )
     {
